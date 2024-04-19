@@ -1,0 +1,49 @@
+.end1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center;
+    padding: 30px;
+}
+
+.end2{
+    font-size: 23px;
+    text-align: center;
+    padding: 20px;
+}
+
+.enddet2{
+    width: 700px;
+}
+.endbtns{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.joind{
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.enddetails{
+    background-color: #ffda79;
+    display: flex;
+    justify-content: center;
+}
+
+.Learn{
+    background-color: white;
+    color: black;
+    font-size: 17px;
+}
+
+.getstarted{
+    font-size: 20px;
+}
+
+.browsebtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}

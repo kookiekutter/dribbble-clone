@@ -1,0 +1,98 @@
+export const Carddet = [
+  {
+    Image: "/a (1).jpg",
+    name: "Ethan Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (2).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (3).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (4).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (5).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (6).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (7).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (17).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (9).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (10).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (11).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (12).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (13).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (14).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (15).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+  {
+    Image: "/a (16).jpg",
+    name: "lmao Fender",
+    likes: "347",
+    views: "2.8k",
+  },
+];

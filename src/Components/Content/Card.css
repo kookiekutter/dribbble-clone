@@ -1,0 +1,52 @@
+#con-text{
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 80px 0px 40px 0px;
+}
+
+.contentcard{
+    background-size: cover;
+    width: 320px;
+    height: 231px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+#con-image{
+    border-radius: 20px;
+}
+
+#concardhover:hover{
+    transform: scale(1.05);
+}
+
+#cardpro{
+    background-color: rgb(172, 190, 209);
+    padding: 2px 6px;
+    border-radius: 2px 4px 2px 4px;
+    color: white;
+    font-size: 14px;
+}
+
+.like , .view {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: fit-content;
+}
+
+.social , .name-pro{
+    display: flex;
+    gap: 14px;
+    width: fit-content;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
