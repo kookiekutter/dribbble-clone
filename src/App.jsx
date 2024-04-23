@@ -1,36 +1,22 @@
-import './App.css';
-import Header from './Components/Header';
-import Hero from './Components/Hero';
-import DsnrCard from './Components/DesignerCard/DsnrCard';
-import Card from './Components/Content/Card';
-import Endpage from './Components/endpage/Endpage';
-import { Carddet } from './Components/Content/Carddet';
-import { details } from './Components/DesignerCard/DsnrCardDet';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Signup from "./Components/authpages/Signup";
+import Login from "./Components/authpages/Login";
+import Homepage from "./Homepage";
+import Conpage from "./Components/Content/Conpage";
+import Follow from "./Follow";
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Hero />
-
-      <div className="des-scroll">
-      <div className="carousel">
-      {
-        details.map((d,l)=><DsnrCard idx={l}/>)
-      }
-      </div>
-      </div>
-      <p id='con-text'>Explore inspiring Designs</p>
-
-      <div className="contentcards">
-      {
-        Carddet.map((i,k)=>{
-          return(<Card idx={k}/>);
-        })
-      }      
-      </div>
-
-      <Endpage/>
+    <div className="App" style={{ backgroundColor: "#f8f7f4"}}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="Signup" element={<Signup />} />
+          <Route path="Login" element={<Login />} />
+          <Route path="/card/:id" element={<Conpage />} />
+          <Route path="Follow" element={<Follow />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

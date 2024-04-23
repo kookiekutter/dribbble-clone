@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,15 +10,15 @@ const Header = () => {
             <ul>
                 <li><select name="Finddes" id="finddesigners">
                   <option value="">Search for Designers</option> 
-                <option value="">Find Designer</option>
+                <option value="">Find Designers </option>
                 <option value="">Post a Job</option>
                 </select>
                 </li>
                 <li><a href="#">Inspiration</a></li>
                 <li><select name="courses" id="courses">
                   <option value="">UI Certificate</option> 
-                <option value="">UX Diploma</option>
                 <option value="">Courses</option>
+                <option value="">UX Diploma</option>
                 </select>
                 </li>
                 <li><a href="#">Jobs</a></li>
@@ -32,8 +33,8 @@ const Header = () => {
         <div className="headerright">
             <ul>
                 <li> <input type="text" placeholder='Search...'/> </li>
-                <li><a href="#" id='login'>Log in</a></li>
-                <li><a href="#" id='signup'>Sign Up</a></li>
+                <li><Link to='Login'><a href="#" id='login'>Log in</a></Link></li>
+                <li ><Link to='Signup'><a href="#" id='signup'>Sign Up</a></Link></li>
             </ul>
         </div>
       </div>

@@ -1,0 +1,88 @@
+.dsnrdetails ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 500px;
+    gap: 25px;
+    margin: 20px;
+}
+
+.dsnrdetails li{
+    list-style: none;
+    border: 1px solid;
+    padding: 4px 10px;
+    border-radius: 50px;
+    margin: -5px;
+}
+
+.dsnrdetails li:hover{
+    background:linear-gradient(to right,pink,lavender);
+    font-size: 18px;
+}
+
+#dsrname{
+    font-size: 35px;
+    margin: 20px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#dsrjob{
+    font-size: 20px;
+    margin-left: 20px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dsnrdetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.dsrfirst{
+    display: flex;
+}
+
+#dsrimg{
+    border-radius: 20px;
+}
+
+#dsrimg:hover{
+    transform: scale(1.04);
+}
+
+#abt{
+    font-size: 30px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#abtdet{
+    font-size: 20px;
+    width: 900px;
+}
+
+.dsrone{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 70px;
+}
+
+#back{
+    font-size: 18px;
+}
+
+.dsrnameflw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#following{
+    font-size: 16px;
+    background-color: gray;
+    margin: 0px;
+}

@@ -1,0 +1,80 @@
+.heading{
+    font-size: 32px;
+    background: linear-gradient(to right, rgb(192, 67, 192),red );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#su-googlebtn, #su-mail{
+    font-size: 18px;
+    padding: 15px 130px;
+    margin: 20px 20px;
+}
+
+#su-mail{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(168, 178, 188);
+}
+
+.signupbtns{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+.su-det{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.su-det2{
+    font-size: 25px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    margin: 40px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logindet{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 30px;
+}
+
+#label{
+    padding: 15px;
+}
+
+#username , #password{
+    border: 1px solid rgb(168, 178, 188);
+    border-radius: 8px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#linksignup{
+    text-decoration: underline;
+    color: blue;
+}
+
