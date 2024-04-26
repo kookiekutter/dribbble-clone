@@ -22,7 +22,7 @@ const Header = () => {
                 </select>
                 </li>
                 <li><a href="#">Jobs</a></li>
-                <li><a href="#">Go Pro</a></li>
+                {/* <li><Link to='/Likes'><button>Liked</button></Link></li> */}
             </ul>
         </div>
 

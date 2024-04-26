@@ -48,7 +48,7 @@ const Follow = () => {
         <Link to='/'><button id="back">Go Back</button></Link>
         {/* <p id="abt">Recomondations</p> */}
         </div>
-        <p id="rec">Recomonded for you</p>
+        <p id="rec">Recommended for you</p>
       <div className="recc">
       <Card idx={9}/>
       <Card idx={10}/>

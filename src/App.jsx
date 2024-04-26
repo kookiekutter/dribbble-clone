@@ -4,6 +4,7 @@ import Login from "./Components/authpages/Login";
 import Homepage from "./Homepage";
 import Conpage from "./Components/Content/Conpage";
 import Follow from "./Follow";
+import Likes from "./Likes";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="Login" element={<Login />} />
           <Route path="/card/:id" element={<Conpage />} />
           <Route path="Follow" element={<Follow />} />
+          <Route path="Likes" element={<Likes />} />
         </Routes>
       </BrowserRouter>
     </div>

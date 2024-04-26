@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import DsnrCard from "./Components/DesignerCard/DsnrCard";
@@ -9,14 +9,18 @@ import { details } from "./Components/DesignerCard/DsnrCardDet";
 import "./Homepage.css";
 import { Link } from "react-router-dom";
 
-
 const Homepage = () => {
-  // const [liked,setliked]=
+  const [liked, setLiked] = useState([]);
+  const onlike = (imag) => {
+    setLiked((prev) => [...prev, imag]);
+    console.log(liked);
+  };
+
   return (
     <div className="App">
       <Header />
       {/* <Follow/> */}
-      
+
       <Hero />
       {/* <Login/> */}
       {/* <Signup/> */}
@@ -32,11 +36,7 @@ const Homepage = () => {
 
       <div className="contentcards">
         {Carddet.map((i, k) => {
-          return (
-            <Link to={`/card/${k}`}>
-              <Card idx={k} />
-            </Link>
-          );
+          return <Card idx={k} onlike={onlike} />;
         })}
       </div>
 

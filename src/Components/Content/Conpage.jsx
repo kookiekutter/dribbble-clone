@@ -29,7 +29,7 @@ const Conpage = () => {
         <button id='msg'>Write a message!</button>
         <Link to='/Follow'><button id='follow'>Follow for more Design Inspiration!</button></Link>
       </div>
-      <p id="rec">Recomonded for you</p>
+      <p id="rec">Recommended for you</p>
       <div className="recc">
       <Card idx={9}/>
       <Card idx={10}/>
